@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7769d6b952e734349bf5d66f3b7eb5ff, type: 3}
+  m_Name: Night Staff 1
+  m_EditorClassIdentifier: 
+  id: Night Staff
+  desc: 40 dmg
+  img: {fileID: 21300000, guid: 6abee59445a4f9e408710dbb63127f24, type: 3}
+  width: 3
+  height: 2
+  type: weapon

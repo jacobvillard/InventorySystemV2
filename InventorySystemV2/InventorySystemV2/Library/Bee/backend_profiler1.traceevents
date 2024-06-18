@@ -1,0 +1,531 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701786602630326, "dur":1483, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786602631815, "dur":118, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701786602631977, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701786602631998, "dur":339, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701786602632361, "dur":536, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786602632897, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409047, "dur":88, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409135, "dur":81, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409216, "dur":38, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409254, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409266, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409269, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409277, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409279, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409285, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409287, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409293, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409295, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409302, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409314, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603409331, "dur":1827, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701786602632799, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701786602632927, "dur":3012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701786602635939, "dur":12354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1701786602648296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701786602648301, "dur":35647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1701786602683959, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701786602683986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701786602683990, "dur":23353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701786602707356, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701786602707387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701786602707390, "dur":701618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701786603409023, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1701786603409024, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602633004, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602633004, "dur":2932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602635937, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701786602635980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602638613, "dur":21223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701786602659854, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701786602659889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602661310, "dur":7026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701786602668349, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701786602668377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602668382, "dur":14914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701786602683310, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1701786602683335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602683339, "dur":17933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1701786602701284, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701786602701383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701786602701413, "dur":595005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701786603296433, "dur":112620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602632893, "dur":6, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602632899, "dur":2986, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602635893, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1701786602635894, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602635960, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1701786602635964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602636445, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1701786602640002, "dur":8371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701786602648376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602648381, "dur":35284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701786602683677, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1701786602683706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602683710, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1701786602686333, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1701786602686360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602686365, "dur":29762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1701786602716142, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1701786602716175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602716179, "dur":102488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1701786602818679, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602818691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602818695, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602821717, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602821729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602821732, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602823371, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602823383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602823386, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602826115, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602826127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602826131, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602827982, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602827994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602827998, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602830325, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602830336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602830340, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602833230, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602833245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602833248, "dur":11365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602844623, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602844938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602844942, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602846556, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602846698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602846702, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602848157, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602848313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602848331, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602849711, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602849848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602849852, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602851287, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602851428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602851432, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602852515, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602852798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602852801, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602853866, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602854021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602854025, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602855825, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602855981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602855985, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602856840, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602856852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602856856, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602857945, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602857960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602857965, "dur":3100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602861078, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602861090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602861093, "dur":7508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602868612, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602868623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602868627, "dur":8203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602876844, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602876856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602876859, "dur":7973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602884843, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786602884855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786602884858, "dur":255066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701786603139937, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1701786603139953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701786603139958, "dur":42201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1701786603182172, "dur":226903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602633102, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602633103, "dur":2835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602635938, "dur":10941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701786602646881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602646935, "dur":14140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701786602661088, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701786602661133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602661190, "dur":11288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701786602672492, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701786602672531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602672536, "dur":10496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701786602683045, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701786602683103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602683117, "dur":79223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701786602762354, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602762371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602762635, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602763497, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602763513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602763526, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602764583, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602764599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602764603, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602765281, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602765297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602765301, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602766025, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602766041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602766044, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602767066, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602767080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602767084, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602767968, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602767983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602767986, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602768662, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602768686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602768690, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602769352, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602769368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602769372, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602770023, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602770038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602770042, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602772042, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602772054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602772058, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602772744, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602772757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602772761, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602773432, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602773444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602773448, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602774104, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602774116, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602774119, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602775007, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602775019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602775022, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602775721, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602775736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602775739, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602776420, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602776432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602776435, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602777124, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602777136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602777140, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602778088, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602778099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602778102, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602778759, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602778774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602778778, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602779662, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602779674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602779678, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602780876, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602781148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602781152, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602782075, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602782086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602782090, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602782727, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602782738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602782742, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602783417, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602783429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602783433, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602784106, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602784118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602784121, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602785018, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602785029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602785033, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602786503, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602786525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602786529, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602787192, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602787203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602787207, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602787921, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602787933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602787936, "dur":9417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602797365, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602797378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602797382, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602798063, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602798075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602798078, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602798745, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602798759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602798762, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602799438, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602799452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602799468, "dur":6283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602805761, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602805773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602805777, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602806918, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602806933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602806936, "dur":11022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602817970, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602817986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602817990, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602821322, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602821340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602821344, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602822971, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602823054, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602823062, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602825928, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602825941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602825944, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602827631, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602827646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602827649, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602829584, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602829604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602829608, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602832680, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602832691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602832695, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602834253, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602834269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602834272, "dur":10668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602844950, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602844962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602844966, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602846514, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602846873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602846877, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602848519, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602848681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602848685, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602850284, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602850453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602850457, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602851915, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602852405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602852409, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602853605, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602853621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602853624, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602855670, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602855815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602855818, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602856749, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602856761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602856765, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602857932, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602857950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602857955, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602860933, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602860944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602860947, "dur":6785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602867741, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602867752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602867756, "dur":8975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602876742, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602876755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602876759, "dur":8479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602885251, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602885418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786602885422, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701786602889869, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1701786602890031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786603139751, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1701786603142671, "dur":1664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1701786603144340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786603144347, "dur":28756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1701786603173113, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701786603173125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786603173127, "dur":6374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701786603179512, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701786603179525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701786603179529, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701786603180608, "dur":228428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602633201, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602633202, "dur":2735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602635938, "dur":12413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1701786602648353, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602648372, "dur":16397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1701786602664779, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1701786602664801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602664805, "dur":12889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1701786602677711, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1701786602677745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602678472, "dur":15438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1701786602693924, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602693955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602695342, "dur":112418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602807771, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602807783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602807787, "dur":10251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602818049, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602818061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602818065, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602821475, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602821487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602821490, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602823112, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602823124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602823128, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602826052, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602826063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602826067, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602828012, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602828024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602828027, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602829869, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602829880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602829883, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602833164, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602833175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602833179, "dur":11552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602844741, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602845202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602845207, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602846907, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602847056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602847059, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602848415, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602848556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602848560, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602850424, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602850560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602850563, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602851935, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602852078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602852082, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602852958, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602852969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602852972, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602853822, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602853834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602853837, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602855741, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602855888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602855891, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602856780, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602856791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602856794, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602860451, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602860472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602860477, "dur":4904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602865395, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602865410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602865415, "dur":9778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602875206, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602875221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602875227, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602876810, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602876834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602876847, "dur":8225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602885083, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602885095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602885099, "dur":4813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701786602889924, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1701786602889938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786602889951, "dur":250452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1701786603140419, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701786603140431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786603140435, "dur":32472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701786603172919, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1701786603172931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786603172935, "dur":6579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1701786603179525, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1701786603179537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701786603179540, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1701786603180611, "dur":228424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602633306, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602633306, "dur":2602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602635908, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1701786602636004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602638357, "dur":48329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1701786602686698, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1701786602686722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602686726, "dur":43967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1701786602730704, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2.exe" }}
+,{ "pid":12345, "tid":6, "ts":1701786602730717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602730721, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2.exe" }}
+,{ "pid":12345, "tid":6, "ts":1701786602733307, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1701786602733336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602733763, "dur":71953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1701786602805729, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602805743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602805747, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602806791, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602806804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602806808, "dur":11002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602817822, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602817835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602817839, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602821257, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602821274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602821277, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602822975, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602823082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602823086, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602826009, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602826035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602826038, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602827872, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602827888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602827892, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602829746, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602829761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602829764, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602833075, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602833086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602833090, "dur":10928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602844029, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602844187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602844191, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602846256, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602846469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602846473, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602848002, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602848153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602848157, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602849537, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602849684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602849688, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602851018, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602851161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602851164, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602852162, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602852175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602852178, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602853131, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602853143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602853146, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602853963, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602854147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602854151, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602855931, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602856094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602856098, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602856960, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602856972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602856976, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602857982, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602857998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602858001, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602860978, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602860991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602860994, "dur":6658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602867664, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602867678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602867682, "dur":8654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602876348, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602876373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602876378, "dur":8306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602884696, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602884707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786602884712, "dur":4957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602889683, "dur":5067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786602894754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786603142568, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701786603143386, "dur":1179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1701786603144567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786603144571, "dur":28730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1701786603173312, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1701786603173327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786603173330, "dur":6432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1701786603179783, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/downloads/InventorySystemBuild/InventorySystemV2_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1701786603179972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701786603179976, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/downloads/InventorySystemBuild/InventorySystemV2_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1701786603180804, "dur":228270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701786603412595, "dur":1653, "ph":"X", "name": "ProfilerWriteOutput" }
+,
