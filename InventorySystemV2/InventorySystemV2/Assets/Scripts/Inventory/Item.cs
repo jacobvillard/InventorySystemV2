@@ -1,26 +1,34 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Item : MonoBehaviour
-{
-    public ItemData itemdata;
+namespace Inventory {
+    /// <summary>
+    /// A class that represents an item in the inventory.
+    /// </summary>
+    public class Item : MonoBehaviour {
+        public ItemData itemdata;
 
-    //Item Variables
-    public bool rotated = false;
-    public int orginalPlacementPosX;
-    public int orginalPlacementPosY;
+        //Item Variables
+        public bool rotated = false;
+        public int orginalPlacementPosX;
+        public int orginalPlacementPosY;
 
-    internal void Set(ItemData itemdata)
-    {
-        this.itemdata = itemdata;
-        GetComponent<Image>().sprite = itemdata.img;
+        /// <summary>
+        /// Initializes the item with the given item data.
+        /// </summary>
+        /// <param name="itemdata"></param>
+        internal void Set(ItemData itemdata) {
+            this.itemdata = itemdata;
+            GetComponent<Image>().sprite = itemdata.img;
 
-        Vector2 size = new Vector2();
-        size.x = itemdata.height * GridInv.TileSizeHeight;
-        size.y = itemdata.width * GridInv.TileSizeWidth;
-        GetComponent<RectTransform>().sizeDelta = size;
-        this.transform.localScale = new Vector3(1f, 1f, 1f);
+            var size = new Vector2 {
+                x = itemdata.height * GridInv.TileSizeHeight,
+                y = itemdata.width * GridInv.TileSizeWidth
+            };
+            GetComponent<RectTransform>().sizeDelta = size;
+            transform.localScale = new Vector3(1f, 1f, 1f);
+
+        }
 
     }
-
 }

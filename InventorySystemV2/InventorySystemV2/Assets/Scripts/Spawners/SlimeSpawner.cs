@@ -1,36 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Enemy;
 using TMPro;
+using UnityEngine;
+
+namespace Spawners {
+    /// <summary>
+    /// This script is used to spawn slimes
+    /// </summary>
+    public class SlimeSpawner : MonoBehaviour {
+        [SerializeField] private GameObject slimePrefab;
+        [SerializeField] private GameObject healthInputField;
+        [SerializeField] private GameObject damageInputField;
+        [SerializeField] private Transform parentObject;
+        private int damageInt;
+        private string damageString;
+
+        private int healthInt;
+        private string healthString;
+
+        private Vector3 spawnPos;
 
 
-public class SlimeSpawner : MonoBehaviour
-{
+        /// <summary>
+        /// This method is used to spawn a slime
+        /// </summary>
+        public void SpawnSlime() {
+            spawnPos = new Vector3(Camera.main.transform.position.x + 7.5f, 1, 0);
+            var enemy = Instantiate(slimePrefab, spawnPos, transform.rotation);
+            enemy.transform.SetParent(parentObject);
+            healthString = healthInputField.GetComponent<TMP_InputField>().text;
+            damageString = damageInputField.GetComponent<TMP_InputField>().text;
 
-    [SerializeField] GameObject slimePrefab;
-    [SerializeField] GameObject healthInputField;
-    [SerializeField] GameObject damageInputField;
-    [SerializeField] Transform parentObject;
-
-    private Vector3 spawnPos;
-    private string healthString;
-    private string damageString;
-
-    private int healthInt;
-    private int damageInt;
-
-
-    public void spawnSlime()
-    {
-        spawnPos = new Vector3(Camera.main.transform.position.x + 7.5f, 1, 0);
-        GameObject enemy = Instantiate(slimePrefab, spawnPos, transform.rotation);
-        enemy.transform.SetParent(parentObject);
-        healthString = healthInputField.GetComponent<TMP_InputField>().text;
-        damageString = damageInputField.GetComponent<TMP_InputField>().text;
-
-        int.TryParse(healthString, out healthInt);
-        int.TryParse(damageString, out damageInt);
-        enemy.GetComponent<Slime>().health = healthInt;
-        enemy.GetComponent<Slime>().damage = damageInt;
+            int.TryParse(healthString, out healthInt);
+            int.TryParse(damageString, out damageInt);
+            enemy.GetComponent<Slime>().health = healthInt;
+            enemy.GetComponent<Slime>().damage = damageInt;
+        }
     }
 }

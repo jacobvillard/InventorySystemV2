@@ -1976,7 +1976,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845560531}
         m_TargetAssemblyTypeName: SlimeSpawner, Assembly-CSharp
-        m_MethodName: spawnSlime
+        m_MethodName: SpawnSlime
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2535,7 +2535,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1731807261}
         m_TargetAssemblyTypeName: chestSpawner, Assembly-CSharp
-        m_MethodName: spawnChest
+        m_MethodName: SpawnChest
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
