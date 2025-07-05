@@ -36,3 +36,45 @@ A Tetris-style inventory system prototype built in Unity as part of my Games Eng
 1. Clone the repo:
    ```bash
    git clone https://github.com/jacobvillard/InventorySystemV2.git
+    
+2. Open the project in **Unity 2022.3 LTS** (or newer).  
+3. Open the `main` scene.  
+4. Hit ▶ **Play** to test the system.
+
+---
+
+## 🎥 Demo
+
+Watch the system in action on YouTube:  
+[📺 Inventory System Showcase](https://youtu.be/YOUR_VIDEO_ID)
+
+---
+
+## 📁 Project Structure
+
+InventorySystemV2/
+├── Scripts/ # Core inventory and item logic
+├── ScriptableObject/ # Item definitions
+└── Scenes/ main.unity # Main test scene
+
+---
+
+## 🧪 Technical Notes
+
+- Originally developed using an observable pattern, later switched to a **singleton** for performance and simplicity.
+- Modular design allows for quick iteration on new item types or grid behavior.
+- Designed with extension in mind for use in full survival, RPG, or looter-style games.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contact
+
+**Email:** jacobvillard@gmail.com  
+**Website:** [jacobvillard.github.io](https://jacobvillard.github.io)  
+**GitHub:** [github.com/jacobvillard](https://github.com/jacobvillard)
