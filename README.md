@@ -46,7 +46,7 @@ A Tetris-style inventory system prototype built in Unity as part of my Games Eng
 ## 🎥 Demo
 
 Watch the system in action on YouTube:  
-[📺 Inventory System Showcase](https://youtu.be/YOUR_VIDEO_ID)
+[📺 Inventory System Showcase](https://youtu.be/7PDsUQXIJmA?si=hUMwMj52JTiQgWwM)
 
 ---
 
